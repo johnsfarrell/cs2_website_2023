@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CS2 is a computer science course at Brown University for non-concentrators.">
+    <meta name="author" content="CS2 TAs">
+    <title>CS2 | The Digital World</title>
+    <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="awning" onclick="toggleNavbar()">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <nav class="desktop-only" id="navbar">
+        <a class="button" href="#top"><button class="static">CS2, the digital world</button></a>
+        <ul>
+            <li>
+                <a class="button" href="#help"><button>help</button></a>
+            </li>
+            <li>
+                <a class="button" href="#hours"><button>hours</button></a>
+            </li>
+            <li>
+                <a class="button" href="#assignments"><button>assignments</button></a>
+            </li>
+            <li>
+                <a class="button" href="#lectures"><button>lectures</button></a>
+            </li>
+            <li>
+                <a class="button" href="#staff"><button>staff</button></a>
+            </li>
+        </ul>
+    </nav>
+
+    <nav class="mobile-only navbar">
+        <div class="nav-header">
+            <a class="button" href="#top"><button>CS2, the digital world</button></a>
+            <button onclick="toggleMobileNavbarDropdown()" class="nb-toggle">&#9776;</button>
+        </div>
+        <ul class="navbar-nav">
+            <li>
+                <a href="#top" onclick="toggleNavbar()">
+                    <blockquote>home</blockquote>
+                </a>
+            </li>
+            <li>
+                <a href="#help" onclick="toggleNavbar()">
+                    <blockquote>help</blockquote>
+                </a>
+            </li>
+            <li>
+                <a href="#hours" onclick="toggleNavbar()">
+                    <blockquote>hours</blockquote>
+                </a>
+            </li>
+            <li><a href="#assignments" onclick="toggleNavbar()">
+                    <blockquote>assignments</blockquote>
+                </a></li>
+            <li><a href="#lectures" onclick="toggleNavbar()">
+                    <blockquote>lectures</blockquote>
+                </a></li>
+            <li><a href="#staff" onclick="toggleNavbar()">
+                    <blockquote>staff</blockquote>
+                </a></li>
+        </ul>
+    </nav>
+
+    <button class="desktop-only" id="navbar-assistance" onclick="toggleNavbar()">
+        press <kbd>T</kbd> to toggle navbar
+    </button>
+
+    <img id="logo" class="desktop-only" src="img/logo.png" alt="logo" />
+
+    <div class="cover" id="top">
+        <div class="cover-container">
+            <p><a class="button" href="#top">welcome to</a></p>
+            <h1><a class="button" href="#top">CS2</a></h1>
+            <p><a class="button" href="#top">the digital world</a></p>
+        </div>
+        <div class="desktop-only" id="navbar-cover">
+            <ul>
+                <li>
+                    <a class="button" href="#hours"><button>hours</button></a>
+                </li>
+                <li>
+                    <a class="button" href="#assignments"><button>assignments</button></a>
+                </li>
+                <li>
+                    <a class="button" href="#assignments"><button>labs</button></a>
+                </li>
+                <li>
+                    <a class="button" href="#lectures"><button>lectures</button></a>
+                </li>
+                <li>
+                    <a class="button" href="#staff"><button>staff</button></a>
+                </li>
+            </ul>
+        </div>
+        <div class="corner desktop-only"></div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="help" id="help">
+        <div class="heading-container">
+            <h2 class="sign">
+                <div class="hanger"></div>
+                <a class="button sign" href="#help">announcements</a>
+            </h2>
+            <img class="heading-img" src="img/ice-cream-1.png" alt="ice-cream-header" />
+        </div>
+        <div class="announcement">
+            <ul>
+                <li>
+                    <div class="date">9/28</div>
+                    <div class="message">Congratulations to Chantal Moawad, this week's Millionaire Quiz winner!</div>
+                </li>
+                <li>
+                    <div class="date">9/21</div>
+                    <div class="message">Congratulations to Ryan Lee, this week's Millionaire Quiz winner!</div>
+                </li>
+                <li>
+                    <div class="date">9/19</div>
+                    <div class="message">Congratulations to Tom Dunn, last week's Millionaire Quiz winner!</div>
+                </li>
+                <li>
+                    <div class="date">9/04</div>
+                    <div class="message">Welcome to CS2!</div>
+                </li>
+            </ul>
+        </div>
+        <div class="heading-container">
+            <h2 class="sign">
+                <a class="button sign" href="#help">resources</a>
+            </h2>
+            <img class="heading-img" src="img/ice-cream-2.png" alt="ice-cream-header" />
+        </div>
+        <div class="contact">
+            <blockquote>
+                <a href="mailto:don.stanford@gmail.com">don.stanford@gmail.com</a>
+                <p>professor</p>
+            </blockquote>
+            <blockquote>
+                <a href="mailto:cs0020headtas@lists.brown.edu">cs0020headtas@lists.brown.edu</a>
+                <p>head tas</p>
+            </blockquote>
+            <blockquote>
+                <a href="mailto:cs0020tas@lists.brown.edu">cs0020tas@lists.brown.edu</a>
+                <p>all tas</p>
+            </blockquote>
+            <blockquote>
+                <a href="#staff">profiles 👇</a>
+                <p>meet all the tas</p>
+            </blockquote>
+        </div>
+        <div class="links">
+            <ul>
+                <li>
+                    <a href="https://canvas.brown.edu/courses/1092797">
+                        <button>
+                            canvas
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://edstem.org/us/courses/46331">
+                        <button>
+                            edstem
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <a href="files/CS2_2023_Syllabus.docx">
+                        <button>
+                            syllabus
+                        </button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="hours" id="hours">
+        <h2 class="sign">
+            <div class="hanger"></div>
+            <a class="button sign" href="#hours">hours</a>
+        </h2>
+        <iframe title="calendar" aria-label="calendar"
+            src="https://calendar.google.com/calendar/embed?src=c_25946620fd56bde7b8fcd43244c9fd27ba59a2e7c9c21b6adfbc630a9f573fc3%40group.calendar.google.com&ctz=America%2FNew_York"></iframe>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="assignments" id="assignments">
+        <div class="heading-container">
+            <h2 class="sign">
+                <div class="hanger"></div>
+                <a class="button sign" href="#assignments">labs</a>
+            </h2>
+            <img class="heading-img" src="img/ice-cream-3.png" alt="ice-cream-header" />
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Resources</th>
+                    <th>Release Date</th>
+                    <th>Due Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Getting Started</td>
+                    <td><a href="https://cs.brown.edu/courses/csci0020/files/labs/lab0.html">Lab 0</a></td>
+                    <td>9/11</td>
+                    <td>9/21</td>
+                </tr>
+                <tr>
+                    <td>Excel</td>
+                    <td><a href="https://cs.brown.edu/courses/csci0020/files/labs/lab1.html">Lab 1</a></td>
+                    <td>9/16</td>
+                    <td>9/21</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td><a href="https://cs.brown.edu/courses/csci0020/files/labs/lab2.html">Lab 2</a></td>
+                    <td>9/30</td>
+                    <td>10/05</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td><a href="https://cs.brown.edu/courses/csci0020/files/labs/lab3.html">Lab 3</a></td>
+                    <td>10/14</td>
+                    <td>10/19</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td></td>
+                    <td>10/28</td>
+                    <td>11/02</td>
+                </tr>
+                <tr>
+                    <td>Python I</td>
+                    <td></td>
+                    <td>11/11</td>
+                    <td>11/16</td>
+                </tr>
+                <tr>
+                    <td>Python II</td>
+                    <td></td>
+                    <td>11/11</td>
+                    <td>11/23</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h2>
+            <a class="button sign" href="#assignments">assignments</a>
+        </h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Resources</th>
+                    <th>Release Date</th>
+                    <th>Due Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Excel</td>
+                    <td><a href="https://cs.brown.edu/courses/csci0020/files/projects/project1.html">Project 1</a></td>
+                    <td>9/16</td>
+                    <td>9/28</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td><a href="https://cs.brown.edu/courses/csci0020/files/projects/project2.html">Project 2</a></td>
+                    <td>9/30</td>
+                    <td>10/12</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td><a href="https://cs.brown.edu/courses/csci0020/files/projects/project3.html">Project 3</a></td>
+                    <td>10/14</td>
+                    <td>10/26</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td></td>
+                    <td>10/28</td>
+                    <td>11/09</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td></td>
+                    <td>11/20</td>
+                    <td>12/05</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="lectures" id="lectures">
+        <div class="heading-container">
+            <h2 class="sign">
+                <div class="hanger"></div>
+                <a class="button sign" href="#lectures">lectures</a>
+            </h2>
+            <img class="heading-img" src="img/ice-cream-4.png" alt="ice-cream-header" />
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Lecture Name</th>
+                    <th>Lecture Slides</th>
+                    <th>Lecture Recording</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>09/07</td>
+                    <td>Introduction to the Digital World</td>
+                    <td><a target="_blank" href="files/lectures/lecture1.pptx">
+                            PPT</td>
+                    <td><a target="_blank"
+                            href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3c19ec69-323d-46b6-81ca-b05f0145483b">
+                            Panopto </a></td>
+                </tr>
+                <tr>
+                    <td>09/12</td>
+                    <td>A Short History of Computing</td>
+                    <td><a target="_blank" href="files/lectures/lecture2.pptx">
+                            PPT</td>
+                    <td><a target="_blank"
+                            href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f38a3fa2-e11a-4b0f-8ed1-b05f01454871">
+                            Panopto </a></td>
+                </tr>
+                <tr>
+                    <td>09/14</td>
+                    <td>The Rise of the Internet - "Revenge of the Nerds"</td>
+                    <td><a target="_blank" href="files/lectures/lecture3.pptx">
+                            PPT</td>
+                    <td><a target="_blank"
+                            href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8b562193-063c-42b5-a29f-b05f01454895">
+                            Panopto </a></td>
+                </tr>
+                <tr>
+                    <td>09/19</td>
+                    <td>Computer Architecture</td>
+                    <td><a target="_blank" href="files/lectures/lecture4.pptx">
+                            PPT</td>
+                    <td><a target="_blank"
+                            href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1a893ffe-a96c-48db-a0ad-b05f014548b5">
+                            Panopto </a></td>
+                </tr>
+                <tr>
+                    <td>09/21</td>
+                    <td>Software and Operating Systems</td>
+                    <td><a target="_blank" href="files/lectures/lecture5.pptx">
+                            PPT</td>
+                    <td><a target="_blank"
+                            href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=94ddd4bc-f5ad-4d5a-9c9b-b05f014548ee">
+                            Panopto </a></td>
+                </tr>
+                <tr>
+                    <td>09/26</td>
+                    <td>Input/Output and Storage Systems</td>
+                    <td><a target="_blank" href="files/lectures/lecture6.pptx">
+                            PPT</td>
+                    <td><a target="_blank"
+                            href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fa7b20da-016d-4aa6-ba2d-b05f01454917">
+                            Panopto </a></td>
+                </tr>
+                <tr>
+                    <td>09/28</td>
+                    <td>Computer Graphics</td>
+                    <td><a target="_blank" href="files/lectures/lecture7.pptx">
+                            PPT</td>
+                    <td><a target="_blank"
+                            href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a8e2ff65-e41c-4f11-afb2-b05f01454940">
+                            Panopto </a></td>
+                </tr>
+                <tr>
+                    <td>10/03</td>
+                    <td>Legal Issues in Computing</td>
+                    <td><a target="_blank" href="files/lectures/lecture8.pptx">
+                            PPT</td>
+                    <td><a target="_blank"
+                            href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=42a32f22-58cd-4b12-b909-b05f0145496a">
+                            Panopto </a></td>
+                </tr>
+                <tr>
+                    <td>10/05</td>
+                    <td>Cyber Crime</td>
+                    <td><a target="_blank" href="files/lectures/lecture9.pptx">
+                            PPT</td>
+                    <td><a target="_blank"
+                            href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=602214f8-be92-448d-8143-b05f01454996">
+                            Panopto </a></td>
+                </tr>
+                <tr>
+                    <td>10/10</td>
+                    <td>Cyber Security</td>
+                    <td><a target="_blank" href="files/lectures/lecture10.pptx">
+                            PPT</td>
+                    <td><a target="_blank"
+                            href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bfafd365-fc99-4461-8159-b05f014549b2">
+                            Panopto </a></td>
+                </tr>
+                <tr>
+                    <td>10/12</td>
+                    <td><b>NO LECTURE! MID TERM BREAK - Work on HTML!</b></td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>10/17</td>
+                    <td>MultiMedia: Digital Audio</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10/19</td>
+                    <td>MultiMedia: Digital Imaging</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10/24</td>
+                    <td>Multimedia: Digital Video</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10/26</td>
+                    <td>Databases and Privacy Issues</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10/31</td>
+                    <td>Writing a Program</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>11/02</td>
+                    <td>Intro to Python</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>11/07</td>
+                    <td>Digital Networks</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>11/09</td>
+                    <td>Artificial Intelligence</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>11/14</td>
+                    <td>The Computing Hierarchy</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>11/16</td>
+                    <td>Crypto Currency, Non Fungible Tokens and The Blockchain</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>11/21</td>
+                    <td><b>No Lecture - Thanksgiving Holiday</b></td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>11/23</td>
+                    <td><b>No Lecture - Thanksgiving Holiday</b></td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>11/28</td>
+                    <td>Computer Gaming</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>11/30</td>
+                    <td>The Internet of Things</td>
+                </tr>
+                <tr>
+                    <td>12/07</td>
+                    <td>Early Optional Final Exam</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>12/19</td>
+                    <td><b>Regularly Scheduled Final Exam
+                        </b></td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="staff" id="staff">
+        <div class="heading-container">
+            <h2 class="sign">
+                <div class="hanger"></div>
+                <a class="button sign" href="#staff">staff</a>
+            </h2>
+            <img class="heading-img" src="img/ice-cream-5.png" alt="ice-cream-header" />
+        </div>
+        <div>
+            <div class="profile-container first">
+                <div class="single-profile reverse">
+                    <div class="picture">
+                        <img loading="lazy" class="profile" src="img/staff/don_stanford.jpg" alt="don_stanford" />
+                        <img loading="lazy" class="ice-cream" src="img/staff-ice-cream/zc7.png" alt="ice_cream" />
+                    </div>
+                    <div class="spoon-scoop-container">
+                        <div class="scoops">
+                            <ul>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                            </ul>
+                        </div>
+                        <div class="spoon" onclick="eat(0)"></div>
+                    </div>
+                    <div class="bio mobile-center">
+                        <h3 id="don"><a href="mailto:don.stanford@gmail.com">professor stanford</a></h3>
+                        <p>
+                            <a target="_blank" href="files/DonProfile.pdf">see full biography</a>
+                        </p>
+                    </div>
+                    <div class="hanger"></div>
+                </div>
+            </div>
+            <div class="shelf">
+                <div class="nich-left"></div>
+                <div class="nich-right"></div>
+            </div>
+        </div>
+        <div>
+            <div class="profile-container">
+                <div class="single-profile reverse">
+                    <div class="picture">
+                        <img loading="lazy" class="profile" src="img/staff/tyler_gurth.jpg" alt="tyler_gurth" />
+                        <img loading="lazy" class="ice-cream" src="img/staff-ice-cream/tyler.png" alt="ice_cream" />
+                    </div>
+                    <div class="spoon-scoop-container">
+                        <div class="scoops chocolate">
+                            <ul>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                            </ul>
+                        </div>
+                        <div class="spoon" onclick="eat(1)"></div>
+                    </div>
+                    <div class="bio">
+                        <h3><a href="mailto:tyler_gurth@brown.edu">tyler, hta</a></h3>
+                        <p>
+                            Hey!! I'm a rising junior studying CS and History of Art and Architecture. When I'm not
+                            programming or appreciating art, one can find me throwing really heavy things.
+                        </p>
+                    </div>
+                    <div class="hanger"></div>
+                </div>
+                <div class="single-profile reverse">
+                    <div class="picture">
+                        <img loading="lazy" class="profile" src="img/staff/alana_cho.jpg" alt="alana_cho" />
+                        <img loading="lazy" class="ice-cream" src="img/staff-ice-cream/alana.png" alt="ice_cream" />
+                    </div>
+                    <div class="spoon-scoop-container">
+                        <div class="scoops cotton-candy">
+                            <ul>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                            </ul>
+                        </div>
+                        <div class="spoon" onclick="eat(2)"></div>
+                    </div>
+                    <div class="bio">
+                        <h3><a href="mailto:alana_cho@brown.edu">alana, hta</a></h3>
+                        <p>
+                            hi! I’m a rising senior from richland, wa studying cs and environmental science. In my
+                            free
+                            time, I love hiking, reading, and listening to music of all genres. Excited to meet you
+                            all!
+                            :)
+                        </p>
+                    </div>
+                    <div class="hanger"></div>
+                </div>
+            </div>
+            <div class="shelf">
+                <div class="nich-left"></div>
+                <div class="nich-right"></div>
+            </div>
+        </div>
+        <div>
+            <div class="profile-container">
+                <div class="single-profile">
+                    <div class="hanger"></div>
+                    <div class="bio">
+                        <h3><a href="mailto:ze-hua-chen@brown.edu">william</a></h3>
+                        <p>
+                            Hi! I’m a rising senior from Beijing, China studying CS, with a focus on design and AI.
+                            Outside
+                            of classes, I love making music & videos, eating great food and investing. Looking
+                            forward
+                            to
+                            meeting you!
+                        </p>
+                    </div>
+                    <div class="spoon-scoop-container">
+                        <div class="scoops strawberry">
+                            <ul>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                            </ul>
+                        </div>
+                        <div class="spoon" onclick="eat(3)"></div>
+                    </div>
+                    <div class="picture">
+                        <img loading="lazy" class="profile" src="img/staff/ze_hua_chen.jpg" alt="ze_hua_chen" />
+                        <img loading="lazy" class="ice-cream" src="img/staff-ice-cream/zc4.png" alt="ice_cream" />
+                    </div>
+                </div>
+                <div class="single-profile">
+                    <div class="hanger"></div>
+                    <div class="bio">
+                        <h3><a href="mailto:nicole_sanchez-soto@brown.edu">nicole</a></h3>
+                        <p>
+                            Hi! :) I’m a rising sophomore studying CS. Outside of my studies, I enjoy dancing on
+                            Impulse,
+                            exploring new cuisines, and spending quality time with friends. As a proud Brooklyn
+                            native,
+                            I’m
+                            always excited to make new connections and meet new people. So, I’m really looking
+                            forward
+                            to
+                            getting to know all of you!
+                        </p>
+                    </div>
+                    <div class="spoon-scoop-container">
+                        <div class="scoops lemon">
+                            <ul>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                            </ul>
+                        </div>
+                        <div class="spoon" onclick="eat(4)"></div>
+                    </div>
+                    <div class="picture">
+                        <img loading="lazy" class="profile" src="img/staff/nicole_sanchez-soto.jpg"
+                            alt="nicole_sanchez-soto" />
+                        <img loading="lazy" class="ice-cream" src="img/staff-ice-cream/zc3.png" alt="ice_cream" />
+                    </div>
+                </div>
+            </div>
+            <div class="shelf">
+                <div class="nich-left"></div>
+                <div class="nich-right"></div>
+            </div>
+        </div>
+        <div>
+            <div class="profile-container">
+                <div class="single-profile reverse">
+                    <div class="picture">
+                        <img loading="lazy" class="profile" src="img/staff/john_farrell.jpg" alt="john_farrell" />
+                        <img loading="lazy" class="ice-cream" src="img/staff-ice-cream/john.png" alt="ice_cream" />
+                    </div>
+                    <div class="spoon-scoop-container">
+                        <div class="scoops grape">
+                            <ul>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                            </ul>
+                        </div>
+                        <div class="spoon" onclick="eat(5)"></div>
+                    </div>
+                    <div class="bio">
+                        <h3><a href="mailto:john_farrell@brown.edu">john</a></h3>
+                        <p>
+                            Hi! I’m a rising sophomore studying CS, with a focus on software and design. Outside of
+                            my
+                            studies, I run for the cross country and track team here at Brown and play the piano.
+                            Looking
+                            forward to meeting all of you!
+                        </p>
+                    </div>
+                    <div class="hanger"></div>
+                </div>
+                <div class="single-profile reverse">
+                    <div class="picture">
+                        <img loading="lazy" class="profile" src="img/staff/zachary_boston.jpg" alt="zachary_boston" />
+                        <img loading="lazy" class="ice-cream" src="img/staff-ice-cream/zc1.png" alt="ice_cream" />
+                    </div>
+                    <div class="spoon-scoop-container">
+                        <div class="scoops">
+                            <ul>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                            </ul>
+                        </div>
+                        <div class="spoon" onclick="eat(6)"></div>
+                    </div>
+                    <div class="bio">
+                        <h3><a href="mailto:zachary_boston@brown.edu">zachary</a></h3>
+                        <p>
+                            What’s up! I’m a rising senior from Berwick, ME studying APMA-CS. In my free time I
+                            enjoy
+                            hooping, watching TV, and listening to music. Excited to work with y’all this semester!
+                        </p>
+                    </div>
+                    <div class="hanger"></div>
+                </div>
+            </div>
+            <div class="shelf">
+                <div class="nich-left"></div>
+                <div class="nich-right"></div>
+            </div>
+        </div>
+        <div>
+            <div class="profile-container">
+                <div class="single-profile">
+                    <div class="hanger"></div>
+                    <div class="bio">
+                        <h3><a href="mailto:chun_lam@brown.edu">chun</a></h3>
+                        <p>
+                            Hi! I’m a rising senior from Hong Kong studying CS and Econ. I love tennis, food, and
+                            movies.
+                        </p>
+                    </div>
+                    <div class="spoon-scoop-container">
+                        <div class="scoops chocolate">
+                            <ul>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                            </ul>
+                        </div>
+                        <div class="spoon" onclick="eat(7)"></div>
+                    </div>
+                    <div class="picture">
+                        <img loading="lazy" class="profile" src="img/staff/chun_lam.jpg" alt="chun_lam" />
+                        <img loading="lazy" class="ice-cream" src="img/staff-ice-cream/chun.png" alt="ice_cream" />
+                    </div>
+                </div>
+                <div class="single-profile">
+                    <div class="hanger"></div>
+                    <div class="bio">
+                        <h3><a href="mailto:brandon_wu@brown.edu">brandon</a></h3>
+                        <p>
+                            Hi! I’m a rising senior from NH, studying CS! In my free time, I love playing
+                            volleyball,
+                            rock
+                            climbing and playing video games. I’m also a big foodie, so I’m always open to
+                            restaurant
+                            recommendations!
+                        </p>
+                    </div>
+                    <div class="spoon-scoop-container">
+                        <div class="scoops strawberry">
+                            <ul>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                            </ul>
+                        </div>
+                        <div class="spoon" onclick="eat(8)"></div>
+                    </div>
+                    <div class="picture">
+                        <img loading="lazy" class="profile" src="img/staff/brandon_wu.jpg" alt="brandon_wu" />
+                        <img loading="lazy" class="ice-cream" src="img/staff-ice-cream/brandon.png" alt="ice_cream" />
+                    </div>
+                </div>
+            </div>
+            <div class="shelf">
+                <div class="nich-left"></div>
+                <div class="nich-right"></div>
+            </div>
+        </div>
+        <div>
+            <div class="profile-container">
+                <div class="single-profile reverse">
+                    <div class="picture">
+                        <img loading="lazy" class="profile" src="img/staff/jennifer_chen.jpg" alt="jennifer_chen" />
+                        <img loading="lazy" class="ice-cream" src="img/staff-ice-cream/jen.png" alt="ice_cream" />
+                    </div>
+                    <div class="spoon-scoop-container">
+                        <div class="scoops cotton-candy">
+                            <ul>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                            </ul>
+                        </div>
+                        <div class="spoon" onclick="eat(9)"></div>
+                    </div>
+                    <div class="bio">
+                        <h3><a href="mailto:jennifer_chen@brown.edu">jennifer</a></h3>
+                        <p>
+                            Changes vscode color theme just to feel something.
+                        </p>
+                    </div>
+                    <div class="hanger"></div>
+                </div>
+                <div class="single-profile reverse">
+                    <div class="picture">
+                        <img loading="lazy" class="profile" src="img/staff/isha_ponugoti.jpg" alt="isha_ponugoti" />
+                        <img loading="lazy" class="ice-cream" src="img/staff-ice-cream/isha.png" alt="ice_cream" />
+                    </div>
+                    <div class="spoon-scoop-container">
+                        <div class="scoops lemon">
+                            <ul>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                            </ul>
+                        </div>
+                        <div class="spoon" onclick="eat(10)"></div>
+                    </div>
+                    <div class="bio">
+                        <h3><a href="mailto:isha_ponugoti@brown.edu">isha</a></h3>
+                        <p>
+                            Hey! I’m a rising senior from Carmel, Indiana (best corn + roundabouts) studying CS and
+                            Entrepreneurship. When I’m not coding, you can find me spending all my money on matcha,
+                            climbing
+                            roofs (send roof recs!), and taking dispos. Can’t wait to meet you all :)
+                        </p>
+                    </div>
+                    <div class="hanger"></div>
+                </div>
+            </div>
+            <div class="shelf">
+                <div class="nich-left"></div>
+                <div class="nich-right"></div>
+            </div>
+        </div>
+        <div>
+            <div class="profile-container">
+                <div class="single-profile">
+                    <div class="hanger"></div>
+                    <div class="bio">
+                        <h3><a href="mailto:zahra_naqvi@brown.edu">zahra</a></h3>
+                        <p>
+                            hi! i’m a rising senior from lahore, pakistan concencetrating in cs-econ. in my free
+                            time i
+                            like taking walks on campus, watching youtube and listening to podcasts. looking forward
+                            to
+                            this semester :)
+                        </p>
+                    </div>
+                    <div class="spoon-scoop-container">
+                        <div class="scoops grape">
+                            <ul>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                            </ul>
+                        </div>
+                        <div class="spoon" onclick="eat(11)"></div>
+                    </div>
+                    <div class="picture">
+                        <img loading="lazy" class="profile" src="img/staff/zahra_naqvi.jpg" alt="zahra_naqvi" />
+                        <img loading="lazy" class="ice-cream" src="img/staff-ice-cream/zc3.png" alt="ice_cream" />
+                    </div>
+                </div>
+                <div class="single-profile">
+                    <div class="hanger"></div>
+                    <div class="bio">
+                        <h3><a href="mailto:chris_chae@brown.edu">chris</a></h3>
+                        <p>
+                            Hi all! I’m a rising senior from Manhattan, KS concentrating in Computer Science on the
+                            computational biology pathway. My favorite spot to study on campus is the 4th floor of
+                            the
+                            Rock,
+                            and my hobbies are traveling and reading!
+                        </p>
+                    </div>
+                    <div class="spoon-scoop-container">
+                        <div class="scoops mint">
+                            <ul>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                            </ul>
+                        </div>
+                        <div class="spoon" onclick="eat(12)"></div>
+                    </div>
+                    <div class="picture">
+                        <img loading="lazy" class="profile" src="img/staff/chris_chae.jpg" alt="chris_chae" />
+                        <img loading="lazy" class="ice-cream" src="img/staff-ice-cream/zc2.png" alt="ice_cream" />
+                    </div>
+                </div>
+            </div>
+            <div class="shelf">
+                <div class="nich-left"></div>
+                <div class="nich-right"></div>
+            </div>
+        </div>
+        <div>
+            <div class="profile-container">
+                <div class="single-profile reverse">
+                    <div class="picture">
+                        <img loading="lazy" class="profile" src="img/staff/nitin_sreekumar.jpg" alt="nitin_sreekumar" />
+                        <img loading="lazy" class="ice-cream" src="img/staff-ice-cream/zc1.png" alt="ice_cream" />
+                    </div>
+                    <div class="spoon-scoop-container">
+                        <div class="scoops">
+                            <ul>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                                <li class="scoop"></li>
+                            </ul>
+                        </div>
+                        <div class="spoon" onclick="eat(13)"></div>
+                    </div>
+                    <div class="bio">
+                        <h3><a href="mailto:nitin_sreekumar@brown.edu">nitin</a></h3>
+                        <p>
+                            Hey! I am a junior concentrating in Biology and CS. In my free time I enjoy biking
+                            around
+                            the area and enjoying nature.
+                        </p>
+                    </div>
+                    <div class="hanger"></div>
+                </div>
+            </div>
+            <div class="shelf">
+                <div class="nich-left"></div>
+                <div class="nich-right"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <footer>
+        <p class="desktop-only">
+            press <kbd>U</kbd> to go to top
+            <br>
+            <br>
+            press <kbd>T</kbd> to toggle navbar
+            <br>
+            <br>
+            press <kbd>CTRL/CMD</kbd> <kbd>+</kbd> <kbd>G</kbd> for a super secret surprise
+        </p>
+        <span></span>
+        <p>
+            🍦 by <a href="mailto:john_farrell@brown.edu">john</a> and <a href="mailto:jennifer_chen@brown.edu">jenn</a>
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
